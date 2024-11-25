@@ -1,29 +1,20 @@
-# whut-sporttheory-frontend
+# 武汉理工大学体育理论考试题库
 
-This template should help get you started developing with Vue 3 in Vite.
+在线网站： [sport.yixuanoct.top](https://sport.yixuanoct.top)
 
-## Recommended IDE Setup
+![Static Badge](https://img.shields.io/badge/Vue.js-3.5.12-%234FC08D?logo=vuedotjs)
+![Static Badge](https://img.shields.io/badge/Bootstrap-5.3.3-%237952B3?logo=bootstrap)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![](https://count.getloli.com/@whut-sporttheory?theme=booru-ffsr)
 
-## Customize configuration
+## 联系方式
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+提交 Issues 或发送邮件到 yixuanoct@qq.com/yixuanoct@gmail.com
 
-## Project Setup
+## 许可证
 
-```sh
-npm install
-```
+本项目采用 [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans)
 
-### Compile and Hot-Reload for Development
+更多详细内容请查看 [LICENSE](./LICENSE)
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![](./src/assets/CC%20BY-NC-ND%204.0.png)
