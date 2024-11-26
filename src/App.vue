@@ -79,8 +79,8 @@ const clickButton = () => {
         <div class="d-flex flex-column align-items-center"
              :class="{'justify-content-center':isSearched===false}"
              style="height: 100vh">
-            <div :style="{display:isSearched?'none':'block',cursor:'pointer'}">
-                <h1 style="font-size: 66px">武理体育理论考试题库</h1>
+            <div :style="{display:isSearched?'none':'block',cursor:'pointer','margin-bottom':'24px'}">
+                <h1>武理体育理论考试题库</h1>
             </div>
 
             <div class="question-card-group flex-column align-items-center"
@@ -111,7 +111,6 @@ const clickButton = () => {
                     </button>
                 </div>
             </div>
-            
             <footer class="footer" style="margin-bottom: 16px">
                 <img src="https://img.shields.io/badge/Vue.js-3.5.12-%234FC08D?logo=vuedotjs" alt="">
                 <img src="https://img.shields.io/badge/Bootstrap-5.3.3-%237952B3?logo=bootstrap" alt="">

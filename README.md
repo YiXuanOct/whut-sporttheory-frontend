@@ -19,6 +19,6 @@
 
 ![](./src/assets/CC%20BY-NC-ND%204.0.png)
 
-## 相关连接
+## 相关链接
 
-+ [whut-sporttheory-frontend](https://github.com/YiXuanOct/whut-sporttheory-frontend)
+[whut-sporttheory-backend](https://github.com/YiXuanOct/whut-sporttheory-backend)
