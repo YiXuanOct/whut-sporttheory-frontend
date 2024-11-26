@@ -17,7 +17,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
                 <div class="toast-body">
-                    <div class="alert alert-info" role="alert">题库数据最后一次更新的时间是：
+                    <div class="alert alert-info" role="alert">
+                        题库数据最后一次更新的时间是：
+                        <h6 style="margin: 8px" class="text-center">2024-10-31 10:00 UTC+08:00</h6>
                     </div>
                     <p>觉得网站好用？花点时间给我的仓库点个免费的小星星吧，或者点击闪电按钮为我发电！</p>
                     <p>服务器很小，请不要压测，谢谢</p>

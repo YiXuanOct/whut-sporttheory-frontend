@@ -15,6 +15,8 @@ const modalContent = ref("")
 const isSearched = ref(false)
 const questions = ref(null)
 const questionCardGroup = ref(null)
+const isHoveringLeft = ref(false)
+const isHoveringRight = ref(false)
 
 onMounted(() => {
     const popver = document.querySelectorAll("[data-bs-toggle='popover']")
@@ -88,13 +90,17 @@ const clickButton = () => {
 
             <div class="card search-box" style="width: 60%">
                 <div class="card-header d-flex align-items-center">
-                    <i class="bi bi-caret-left" @click="scroll(-500)" style="margin-left: -8px;margin-right: 4px"></i>
+                    <i class="bi" :class="isHoveringLeft ? 'bi-caret-left-fill' : 'bi-caret-left'" @click="scroll(-500)"
+                       @mouseover="isHoveringLeft=true" @mouseleave="isHoveringLeft=false"
+                       style="margin-left: -8px;margin-right: 4px"></i>
                     <div class="bank-group d-flex" ref="bankGroup">
                         <div v-for="bank in banks" class="bank" :class="{active:bank===activeBank}"
                              @click="activeBank=bank">{{ bank }}
                         </div>
                     </div>
-                    <i class="bi bi-caret-right" @click="scroll(500)" style="margin-left: 4px;margin-right: -8px"></i>
+                    <i class="bi" :class="isHoveringRight ? 'bi-caret-right-fill' : 'bi-caret-right'"
+                       @mouseover="isHoveringRight=true" @mouseleave="isHoveringRight=false"
+                       @click="scroll(500)" style="margin-left: 4px;margin-right: -8px"></i>
                 </div>
                 <div class="card-body">
                     <input type="text" class="form-control"
