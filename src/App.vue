@@ -45,7 +45,7 @@ const clickButton = () => {
         modalContent.value = "题目关键词中不能包含括号"
         modal.show()
     } else {
-        fetch('http://localhost:8080/sporttheory', {
+        fetch('/api', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -80,7 +80,7 @@ const clickButton = () => {
              :class="{'justify-content-center':isSearched===false}"
              style="height: 100vh">
             <div :style="{display:isSearched?'none':'block',cursor:'pointer','margin-bottom':'24px'}">
-                <h1>武理体育理论考试题库</h1>
+                <h1 style="font-size: 60px">武理体育理论考试题库</h1>
             </div>
 
             <div class="question-card-group flex-column align-items-center"
