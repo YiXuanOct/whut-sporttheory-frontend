@@ -79,8 +79,8 @@ const clickButton = () => {
         <div class="d-flex flex-column align-items-center"
              :class="{'justify-content-center':isSearched===false}"
              style="height: 100vh">
-            <div :style="{display:isSearched?'none':'block',cursor:'pointer','margin-bottom':'24px'}">
-                <h1>武理体育理论考试题库</h1>
+            <div :style="{display:isSearched?'none':'block',cursor:'pointer'}">
+                <h1 style="font-size: 66px">武理体育理论考试题库</h1>
             </div>
 
             <div class="question-card-group flex-column align-items-center"
@@ -111,12 +111,12 @@ const clickButton = () => {
                     </button>
                 </div>
             </div>
+            
             <footer class="footer" style="margin-bottom: 16px">
                 <img src="https://img.shields.io/badge/Vue.js-3.5.12-%234FC08D?logo=vuedotjs" alt="">
                 <img src="https://img.shields.io/badge/Bootstrap-5.3.3-%237952B3?logo=bootstrap" alt="">
                 <img src="https://img.shields.io/badge/CC%20BY--NC--ND-4.0-%23EF9421?logo=creativecommons" alt="">
                 <img src="https://img.shields.io/github/stars/YiXuanOct/whut-sporttheory-frontend" alt="">
-                <img src="https://img.shields.io/badge/QQ-1509055800-%231EBAFC?logo=tencentqq" alt="">
             </footer>
         </div>
     </div>
@@ -125,11 +125,11 @@ const clickButton = () => {
                                                           data-bs-toggle="popover" data-bs-content="回到首页"
                                                           data-bs-placement="left"></a>
         <div style="width: 30px;height:1px;background-color: rgb(229, 229, 229);padding: 0"></div>
-        <a href="https://github.com/YiXuanOct" target="_blank"><i class="bi bi-github"
-                                                                  style="font-size: 36px;line-height: 36px"
-                                                                  data-bs-toggle="popover"
-                                                                  data-bs-content="Github，请给我点 Star！"
-                                                                  data-bs-placement="left"></i></a>
+        <a href="https://github.com/YiXuanOct/whut-sporttheory-frontend" target="_blank"><i class="bi bi-github"
+                                                                                            style="font-size: 36px;line-height: 36px"
+                                                                                            data-bs-toggle="popover"
+                                                                                            data-bs-content="Github，请给我点 Star！"
+                                                                                            data-bs-placement="left"></i></a>
         <a href="https://afdian.com/a/yixuanoct" target="_blank"><i class="bi bi-lightning-charge-fill"
                                                                     style="font-size: 36px;line-height: 36px"
                                                                     data-bs-toggle="popover"
